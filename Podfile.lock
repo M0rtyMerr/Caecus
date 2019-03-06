@@ -1,0 +1,68 @@
+PODS:
+  - IBMWatsonLanguageTranslatorV3 (1.4.0):
+    - IBMWatsonRestKit (~> 2.0.0)
+  - IBMWatsonRestKit (2.0.0)
+  - IBMWatsonTextToSpeechV1 (1.4.0):
+    - IBMWatsonRestKit (~> 2.0.0)
+  - ReactorKit (1.2.1):
+    - RxSwift (>= 4.0.0)
+  - Reusable (4.0.5):
+    - Reusable/Storyboard (= 4.0.5)
+    - Reusable/View (= 4.0.5)
+  - Reusable/Storyboard (4.0.5)
+  - Reusable/View (4.0.5)
+  - RxAtomic (4.4.1)
+  - RxCocoa (4.4.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.1):
+    - RxAtomic (~> 4.4)
+  - TesseractOCRiOS (4.0.0)
+  - Then (2.4.0)
+
+DEPENDENCIES:
+  - IBMWatsonLanguageTranslatorV3
+  - IBMWatsonTextToSpeechV1
+  - ReactorKit
+  - Reusable
+  - RxCocoa
+  - RxSwift
+  - TesseractOCRiOS (from `git://github.com/parallaxe/Tesseract-OCR-iOS.git`, branch `macos-support`)
+  - Then
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IBMWatsonLanguageTranslatorV3
+    - IBMWatsonRestKit
+    - IBMWatsonTextToSpeechV1
+    - ReactorKit
+    - Reusable
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - Then
+
+EXTERNAL SOURCES:
+  TesseractOCRiOS:
+    :branch: macos-support
+    :git: git://github.com/parallaxe/Tesseract-OCR-iOS.git
+
+CHECKOUT OPTIONS:
+  TesseractOCRiOS:
+    :commit: d16bb14e136d875bd5a519febe9e3c103d212647
+    :git: git://github.com/parallaxe/Tesseract-OCR-iOS.git
+
+SPEC CHECKSUMS:
+  IBMWatsonLanguageTranslatorV3: 760e4174d5fe1cd0c43725d26f07b87bd83d4830
+  IBMWatsonRestKit: 0a8d0f2f1cc757a0231729e9206e0b774cda0997
+  IBMWatsonTextToSpeechV1: 9367a2b54b3a702ad867fadebb184b160fffdf19
+  ReactorKit: 8be57f0527ad1ac2963cd5c338274a46a01e57a3
+  Reusable: 188be1a54ac0691bc66e5bb24ec6eb91971b315b
+  RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
+  RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
+  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
+  TesseractOCRiOS: f51bbcd27d84b9ac59950790413a7e4219e84483
+  Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
+
+PODFILE CHECKSUM: 29e48258c328fd0e8f96467fb738081be03f6855
+
+COCOAPODS: 1.6.1

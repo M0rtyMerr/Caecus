@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780E6C1D222FED95005C2F28 /* TranslateAndSayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780E6C1C222FED95005C2F28 /* TranslateAndSayViewController.swift */; };
+		780E6C1F222FED9C005C2F28 /* TranslateAndSayViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780E6C1E222FED9C005C2F28 /* TranslateAndSayViewController.storyboard */; };
+		780E6C22222FEFDA005C2F28 /* CredentialsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780E6C21222FEFDA005C2F28 /* CredentialsService.swift */; };
+		780E6C24222FF23A005C2F28 /* TranslateAndSayReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780E6C23222FF23A005C2F28 /* TranslateAndSayReactor.swift */; };
+		780E6C27222FF47C005C2F28 /* CredentialsServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780E6C26222FF47C005C2F28 /* CredentialsServiceImpl.swift */; };
 		78B09E2E222EBDD10026C796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B09E2D222EBDD10026C796 /* AppDelegate.swift */; };
-		78B09E30222EBDD10026C796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B09E2F222EBDD10026C796 /* ViewController.swift */; };
-		78B09E33222EBDD10026C796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B09E31222EBDD10026C796 /* Main.storyboard */; };
+		78B09E33222EBDD10026C796 /* CaptureViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B09E31222EBDD10026C796 /* CaptureViewController.storyboard */; };
 		78B09E35222EBDD20026C796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B09E34222EBDD20026C796 /* Assets.xcassets */; };
 		78B09E38222EBDD20026C796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B09E36222EBDD20026C796 /* LaunchScreen.storyboard */; };
+		78B09E46222EBE830026C796 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B09E43222EBE820026C796 /* CameraView.swift */; };
+		78B09E72222EC3670026C796 /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B09E71222EC3670026C796 /* CaptureViewController.swift */; };
+		78B09E80222EC5D30026C796 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 78B09E7F222EC5D30026C796 /* tessdata */; };
+		78D3EF97223067EA009F2C9F /* LanguageCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D3EF96223067EA009F2C9F /* LanguageCellType.swift */; };
+		78D3EF9C22306852009F2C9F /* LanguageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D3EF9B22306852009F2C9F /* LanguageTableViewCell.swift */; };
+		78D3EF9E223068E9009F2C9F /* LanguageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D3EF9D223068E9009F2C9F /* LanguageTableViewCell.xib */; };
+		78D3EFA0223069CA009F2C9F /* UITableView+items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D3EF9F223069CA009F2C9F /* UITableView+items.swift */; };
+		78D3EFA22230721B009F2C9F /* translator.env in Resources */ = {isa = PBXBuildFile; fileRef = 78D3EFA12230721B009F2C9F /* translator.env */; };
+		78D3EFA4223074C2009F2C9F /* textToSpeech.env in Resources */ = {isa = PBXBuildFile; fileRef = 78D3EFA3223074C2009F2C9F /* textToSpeech.env */; };
+		D37160EA455138B498FD71EC /* Pods_Caecus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6872D29E53AE528253E296EB /* Pods_Caecus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		315604617FCFDA55DCF9BB14 /* Pods-Caecus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caecus.debug.xcconfig"; path = "Target Support Files/Pods-Caecus/Pods-Caecus.debug.xcconfig"; sourceTree = "<group>"; };
+		6872D29E53AE528253E296EB /* Pods_Caecus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Caecus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		770CB2CA0D0051C267E7AEB7 /* Pods-Caecus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caecus.release.xcconfig"; path = "Target Support Files/Pods-Caecus/Pods-Caecus.release.xcconfig"; sourceTree = "<group>"; };
+		780E6C1C222FED95005C2F28 /* TranslateAndSayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateAndSayViewController.swift; sourceTree = "<group>"; };
+		780E6C1E222FED9C005C2F28 /* TranslateAndSayViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TranslateAndSayViewController.storyboard; sourceTree = "<group>"; };
+		780E6C21222FEFDA005C2F28 /* CredentialsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsService.swift; sourceTree = "<group>"; };
+		780E6C23222FF23A005C2F28 /* TranslateAndSayReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateAndSayReactor.swift; sourceTree = "<group>"; };
+		780E6C26222FF47C005C2F28 /* CredentialsServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsServiceImpl.swift; sourceTree = "<group>"; };
 		78B09E2A222EBDD10026C796 /* Caecus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caecus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B09E2D222EBDD10026C796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		78B09E2F222EBDD10026C796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		78B09E32222EBDD10026C796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78B09E32222EBDD10026C796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CaptureViewController.storyboard; sourceTree = "<group>"; };
 		78B09E34222EBDD20026C796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78B09E37222EBDD20026C796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78B09E39222EBDD20026C796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78B09E3F222EBE550026C796 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		78B09E41222EBE5E0026C796 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		78B09E43222EBE820026C796 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		78B09E71222EC3670026C796 /* CaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
+		78B09E7F222EC5D30026C796 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		78D3EF96223067EA009F2C9F /* LanguageCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCellType.swift; sourceTree = "<group>"; };
+		78D3EF9B22306852009F2C9F /* LanguageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableViewCell.swift; sourceTree = "<group>"; };
+		78D3EF9D223068E9009F2C9F /* LanguageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LanguageTableViewCell.xib; sourceTree = "<group>"; };
+		78D3EF9F223069CA009F2C9F /* UITableView+items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+items.swift"; sourceTree = "<group>"; };
+		78D3EFA12230721B009F2C9F /* translator.env */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = translator.env; sourceTree = "<group>"; };
+		78D3EFA3223074C2009F2C9F /* textToSpeech.env */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textToSpeech.env; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37160EA455138B498FD71EC /* Pods_Caecus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		031261F4EEACCC15320A8E24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				315604617FCFDA55DCF9BB14 /* Pods-Caecus.debug.xcconfig */,
+				770CB2CA0D0051C267E7AEB7 /* Pods-Caecus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		780E6C19222FE9BE005C2F28 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				78B09E43222EBE820026C796 /* CameraView.swift */,
+				78B09E71222EC3670026C796 /* CaptureViewController.swift */,
+				78B09E31222EBDD10026C796 /* CaptureViewController.storyboard */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		780E6C1A222FE9D2005C2F28 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				780E6C19222FE9BE005C2F28 /* Capture */,
+				780E6C20222FEDA0005C2F28 /* TranslateAndSay */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		780E6C1B222FE9DD005C2F28 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78D3EFA12230721B009F2C9F /* translator.env */,
+				78D3EFA3223074C2009F2C9F /* textToSpeech.env */,
+				78B09E7F222EC5D30026C796 /* tessdata */,
+				78B09E34222EBDD20026C796 /* Assets.xcassets */,
+				78B09E36222EBDD20026C796 /* LaunchScreen.storyboard */,
+				78B09E39222EBDD20026C796 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		780E6C20222FEDA0005C2F28 /* TranslateAndSay */ = {
+			isa = PBXGroup;
+			children = (
+				780E6C1C222FED95005C2F28 /* TranslateAndSayViewController.swift */,
+				780E6C1E222FED9C005C2F28 /* TranslateAndSayViewController.storyboard */,
+				780E6C23222FF23A005C2F28 /* TranslateAndSayReactor.swift */,
+				78D3EF982230683A009F2C9F /* Cell */,
+			);
+			path = TranslateAndSay;
+			sourceTree = "<group>";
+		};
+		780E6C25222FF471005C2F28 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				780E6C21222FEFDA005C2F28 /* CredentialsService.swift */,
+				780E6C26222FF47C005C2F28 /* CredentialsServiceImpl.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		78B09E21222EBDD10026C796 = {
 			isa = PBXGroup;
 			children = (
 				78B09E2C222EBDD10026C796 /* Caecus */,
 				78B09E2B222EBDD10026C796 /* Products */,
+				031261F4EEACCC15320A8E24 /* Pods */,
+				F9CF7E6E27D9889266A082F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +150,33 @@
 		78B09E2C222EBDD10026C796 /* Caecus */ = {
 			isa = PBXGroup;
 			children = (
+				780E6C1B222FE9DD005C2F28 /* Resources */,
 				78B09E2D222EBDD10026C796 /* AppDelegate.swift */,
-				78B09E2F222EBDD10026C796 /* ViewController.swift */,
-				78B09E31222EBDD10026C796 /* Main.storyboard */,
-				78B09E34222EBDD20026C796 /* Assets.xcassets */,
-				78B09E36222EBDD20026C796 /* LaunchScreen.storyboard */,
-				78B09E39222EBDD20026C796 /* Info.plist */,
+				78D3EF9F223069CA009F2C9F /* UITableView+items.swift */,
+				780E6C1A222FE9D2005C2F28 /* Screen */,
+				780E6C25222FF471005C2F28 /* Service */,
 			);
 			path = Caecus;
+			sourceTree = "<group>";
+		};
+		78D3EF982230683A009F2C9F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				78D3EF96223067EA009F2C9F /* LanguageCellType.swift */,
+				78D3EF9B22306852009F2C9F /* LanguageTableViewCell.swift */,
+				78D3EF9D223068E9009F2C9F /* LanguageTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F9CF7E6E27D9889266A082F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78B09E41222EBE5E0026C796 /* CoreImage.framework */,
+				78B09E3F222EBE550026C796 /* TesseractOCR.framework */,
+				6872D29E53AE528253E296EB /* Pods_Caecus.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78B09E3C222EBDD20026C796 /* Build configuration list for PBXNativeTarget "Caecus" */;
 			buildPhases = (
+				260EF8A8BAFB67A4F5B30416 /* [CP] Check Pods Manifest.lock */,
 				78B09E26222EBDD10026C796 /* Sources */,
 				78B09E27222EBDD10026C796 /* Frameworks */,
 				78B09E28222EBDD10026C796 /* Resources */,
+				40D0755C439DE2FA70FC2C24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,32 +240,110 @@
 			buildActionMask = 2147483647;
 			files = (
 				78B09E38222EBDD20026C796 /* LaunchScreen.storyboard in Resources */,
+				78B09E80222EC5D30026C796 /* tessdata in Resources */,
+				78D3EFA22230721B009F2C9F /* translator.env in Resources */,
 				78B09E35222EBDD20026C796 /* Assets.xcassets in Resources */,
-				78B09E33222EBDD10026C796 /* Main.storyboard in Resources */,
+				780E6C1F222FED9C005C2F28 /* TranslateAndSayViewController.storyboard in Resources */,
+				78B09E33222EBDD10026C796 /* CaptureViewController.storyboard in Resources */,
+				78D3EF9E223068E9009F2C9F /* LanguageTableViewCell.xib in Resources */,
+				78D3EFA4223074C2009F2C9F /* textToSpeech.env in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		260EF8A8BAFB67A4F5B30416 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Caecus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40D0755C439DE2FA70FC2C24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Caecus/Pods-Caecus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonLanguageTranslatorV3/LanguageTranslator.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonRestKit/RestKit.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonTextToSpeechV1/TextToSpeech.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactorKit/ReactorKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LanguageTranslator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RestKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextToSpeech.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactorKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Caecus/Pods-Caecus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		78B09E26222EBDD10026C796 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78B09E30222EBDD10026C796 /* ViewController.swift in Sources */,
+				780E6C27222FF47C005C2F28 /* CredentialsServiceImpl.swift in Sources */,
+				78B09E72222EC3670026C796 /* CaptureViewController.swift in Sources */,
+				78B09E46222EBE830026C796 /* CameraView.swift in Sources */,
+				78D3EF9C22306852009F2C9F /* LanguageTableViewCell.swift in Sources */,
 				78B09E2E222EBDD10026C796 /* AppDelegate.swift in Sources */,
+				780E6C1D222FED95005C2F28 /* TranslateAndSayViewController.swift in Sources */,
+				780E6C22222FEFDA005C2F28 /* CredentialsService.swift in Sources */,
+				780E6C24222FF23A005C2F28 /* TranslateAndSayReactor.swift in Sources */,
+				78D3EFA0223069CA009F2C9F /* UITableView+items.swift in Sources */,
+				78D3EF97223067EA009F2C9F /* LanguageCellType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		78B09E31222EBDD10026C796 /* Main.storyboard */ = {
+		78B09E31222EBDD10026C796 /* CaptureViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				78B09E32222EBDD10026C796 /* Base */,
 			);
-			name = Main.storyboard;
+			name = CaptureViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		78B09E36222EBDD20026C796 /* LaunchScreen.storyboard */ = {
@@ -280,11 +475,16 @@
 		};
 		78B09E3D222EBDD20026C796 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315604617FCFDA55DCF9BB14 /* Pods-Caecus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T6T8BHG2NB;
-				INFOPLIST_FILE = Caecus/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Caecus/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +498,16 @@
 		};
 		78B09E3E222EBDD20026C796 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 770CB2CA0D0051C267E7AEB7 /* Pods-Caecus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T6T8BHG2NB;
-				INFOPLIST_FILE = Caecus/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Caecus/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
