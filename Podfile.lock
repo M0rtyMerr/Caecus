@@ -1,23 +1,26 @@
 PODS:
-  - IBMWatsonLanguageTranslatorV3 (1.4.0):
-    - IBMWatsonRestKit (~> 2.0.0)
-  - IBMWatsonRestKit (2.0.0)
-  - IBMWatsonTextToSpeechV1 (1.4.0):
-    - IBMWatsonRestKit (~> 2.0.0)
-  - ReactorKit (1.2.1):
-    - RxSwift (>= 4.0.0)
-  - Reusable (4.0.5):
-    - Reusable/Storyboard (= 4.0.5)
-    - Reusable/View (= 4.0.5)
-  - Reusable/Storyboard (4.0.5)
-  - Reusable/View (4.0.5)
-  - RxAtomic (4.4.1)
-  - RxCocoa (4.4.1):
-    - RxSwift (~> 4.0)
-  - RxSwift (4.4.1):
-    - RxAtomic (~> 4.4)
+  - IBMSwiftSDKCore (1.0.0)
+  - IBMWatsonLanguageTranslatorV3 (4.3.0):
+    - IBMSwiftSDKCore (~> 1.0.0)
+  - IBMWatsonTextToSpeechV1 (4.3.0):
+    - IBMSwiftSDKCore (~> 1.0.0)
+  - ReactorKit (3.1.0):
+    - RxSwift (~> 6.0)
+    - WeakMapTable (~> 1.1)
+  - Reusable (4.1.2):
+    - Reusable/Storyboard (= 4.1.2)
+    - Reusable/View (= 4.1.2)
+  - Reusable/Storyboard (4.1.2)
+  - Reusable/View (4.1.2)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
   - TesseractOCRiOS (4.0.0)
-  - Then (2.4.0)
+  - Then (2.7.0)
+  - WeakMapTable (1.2.0)
 
 DEPENDENCIES:
   - IBMWatsonLanguageTranslatorV3
@@ -30,16 +33,17 @@ DEPENDENCIES:
   - Then
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
+    - IBMSwiftSDKCore
     - IBMWatsonLanguageTranslatorV3
-    - IBMWatsonRestKit
     - IBMWatsonTextToSpeechV1
     - ReactorKit
     - Reusable
-    - RxAtomic
     - RxCocoa
+    - RxRelay
     - RxSwift
     - Then
+    - WeakMapTable
 
 EXTERNAL SOURCES:
   TesseractOCRiOS:
@@ -52,17 +56,18 @@ CHECKOUT OPTIONS:
     :git: git://github.com/parallaxe/Tesseract-OCR-iOS.git
 
 SPEC CHECKSUMS:
-  IBMWatsonLanguageTranslatorV3: 760e4174d5fe1cd0c43725d26f07b87bd83d4830
-  IBMWatsonRestKit: 0a8d0f2f1cc757a0231729e9206e0b774cda0997
-  IBMWatsonTextToSpeechV1: 9367a2b54b3a702ad867fadebb184b160fffdf19
-  ReactorKit: 8be57f0527ad1ac2963cd5c338274a46a01e57a3
-  Reusable: 188be1a54ac0691bc66e5bb24ec6eb91971b315b
-  RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
-  RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
-  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
+  IBMSwiftSDKCore: 54ad77b03a4d27b218ba514580197db3b89a96ca
+  IBMWatsonLanguageTranslatorV3: d801258bf4fa1f4a67ac5d28d21ff01f8cea681a
+  IBMWatsonTextToSpeechV1: 2a1bd30565422011152630f6689983de4db6e12f
+  ReactorKit: a06dd2a5c9339287aedf3dc821cfab6347eca106
+  Reusable: 6bae6a5e8aa793c9c441db0213c863a64bce9136
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
   TesseractOCRiOS: f51bbcd27d84b9ac59950790413a7e4219e84483
-  Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+  WeakMapTable: 05c694ce8439a7a9ebabb56187287a63c57673d6
 
 PODFILE CHECKSUM: 29e48258c328fd0e8f96467fb738081be03f6855
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.10.1
